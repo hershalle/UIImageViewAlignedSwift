@@ -31,7 +31,6 @@ public struct UIImageViewAlignmentMask: OptionSet {
     public static let bottomRight: UIImageViewAlignmentMask = [bottom, right]
 }
 
-@IBDesignable
 open class UIImageViewAligned: UIImageView {
     
     /**
